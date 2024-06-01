@@ -1,0 +1,266 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+
+
+.nav_bar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+}
+
+.logo>h1 {
+    font-family: 'Lobster', cursive;
+    color: #387add;
+    font-size: 2.1rem;
+}
+
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav_bar>li {
+    margin: 0 1rem 0 1rem;
+
+}
+
+#botao:hover {
+    border: none;
+    background: #8114c1;
+}
+
+#botao {
+    background: #387add;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+   
+}
+
+
+ul.links_4 {
+    flex: 70%;
+    padding: 0 8rem 0 0;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+ul.links_4 li {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+ul.links_4 li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+
+.links_4>li>a:hover {
+    color: #8114c1;
+    border-top: 4px solid #387add;
+}
+
+
+.header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    padding: 10rem;
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #8114c1;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    border: none;
+    background: #387add;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 4rem;
+    margin: 0;
+    font-family: Lobster, cursive;
+    font-weight: bold;
+    color: #387add;
+}
+
+section h3 {
+    margin-top: 1.5rem;
+}
+
+section p {
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+
+
+.servicos {
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.card {
+    
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #8114c1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.card:hover {
+    background: #8114c1;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+.card:hover .card-texto {
+    display: none;
+}
+
+
+
+.agencia {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    height: 300px;
+    border-top: 5px solid #8114c1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #512bbb, #3e82e5, #2f96c9, #39e5d4);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.logo-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.redes_sociais ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.redes_sociais img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer-text {
+    margin-top: 1rem;
+}
+
+.footer-rights {
+    margin-top: 1rem;
+}

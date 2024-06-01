@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Trainee</title>
+    <link rel="stylesheet" href="./css/style.css" type="">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body onresize="verificaLargura()">
+    <header>
+        <nav class="nav_bar">
+            <div class="logo">
+                <h1>ImagineX</h1>
+            </div>
+            <ul class="links_4" id="itens">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a id="botao" href="#">Fale Conosco</a></li>
+
+            </ul>
+            <i class="material-symbols-outlined" id="burguer" onclick="clickMenu()"> Menu</i>
+        </nav>
+        <div class="header">
+            <div class="headline">
+                <h2 style="letter-spacing: 15px;">você achou a melhor</h2>
+                <h2 style="font-size: 5rem;">Agência Digital</h2>
+                <p>A ImagineX é uma agência digital inovadora e criativa, especializada em transformar visões de
+                    negócios em realidades digitais impactantes. Fundada em 2015 em São Paulo, a ImagineX se destaca por
+                    seu compromisso em entregar soluções digitais personalizadas que ajudam empresas a crescer e se
+                    destacar em um mercado competitivo. Com uma equipe talentosa de designers, desenvolvedores,
+                    especialistas em marketing digital e estrategistas, a ImagineX oferece uma gama completa de serviços
+                    digitais sob medida para atender às necessidades específicas de cada cliente. </p>
+
+                <a href="#" class="contact-btn">Contrate Agora</a>
+            </div>
+            <div class="img-headline">
+                <img style="max-width: 100%;" src="./img/imgAgenciaDigital.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section>
+        <h2>O que podemos fazer pelo seu negócio?</h2>
+        <div class="servicos">
+            <div class="card">
+                <img class="img_section" src="./img/codificacao-da-web.png" alt="">
+                <div class="card-texto">
+                    <h3>Desenvolvimentos de Sites</h3>
+                    <p>
+                        <b>Design Personalizado:</b> Criação de websites com design exclusivo, focado na identidade da
+                        marca e na experiência do usuário.<br>
+                        <b>Sites Responsivos:</b> Desenvolvimento de sites que se adaptam perfeitamente a qualquer
+                        dispositivo, seja desktop, tablet ou mobile.<br>
+                        <b>E-commerce:</b> Construção de lojas online robustas e seguras, otimizadas para conversão e
+                        facilidade de uso.
+
+                    </p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteúdo qualquer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolor totam officia quis
+                        velit!
+                        Nobis cupiditate blanditiis unde maiores numquam, voluptates explicabo aspernatur, quam nulla
+                        itaque, libero culpa consequatur officia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img_section" src="./img/gerenciamento-de-conteudo.png" alt="">
+                <div class="card-texto">
+                    <h3>Produção de conteúdo</h3>
+                    <p>
+                        <b>Blog Posts e Artigos:</b> Criação de artigos informativos e otimizados para SEO, focados em
+                        atrair e engajar seu público-alvo. <br>
+                        <b>Redes Sociais: </b>Desenvolvimento de conteúdo visual e textual para aumentar a interação e
+                        presença da sua marca nas plataformas sociais. <br>
+                        <b> E-books e Whitepapers:</b> Produção de materiais aprofundados para captar leads qualificados
+                        e
+                        estabelecer sua empresa como autoridade no setor.
+                    </p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteúdo qualquer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolor totam officia quis
+                        velit!
+                        Nobis cupiditate blanditiis unde maiores numquam, voluptates explicabo aspernatur, quam nulla
+                        itaque, libero culpa consequatur officia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img_section" src="./img/midia-social.png" alt="">
+                <div class="card-texto">
+                    <h3>Gestão de redes sociais</h3>
+                    <p>
+                        <b>Criação de Conteúdo:</b> Desenvolvimento de conteúdo visual e textual para engajar e expandir
+                        a
+                        audiência nas redes sociais. <br>
+                        <b>Gerenciamento de Perfis:</b> Administração completa dos perfis sociais, incluindo postagens
+                        regulares, interação com seguidores e monitoramento de desempenho. <br>
+                        <b>Anúncios em Redes Sociais:</b> Criação e gestão de campanhas publicitárias nas principais
+                        redes
+                        sociais para alcançar um público específico. <br>
+                    </p>
+                </div>
+                <div class="texto-oculto">
+                    <h3>Outro conteúdo qualquer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolor totam officia quis
+                        velit!
+                        Nobis cupiditate blanditiis unde maiores numquam, voluptates explicabo aspernatur, quam nulla
+                        itaque, libero culpa consequatur officia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="logo-rodape">
+            <h1 class="agencia">ImagineX</h1>
+            <div class="redes_sociais">
+                <ul>
+                    <li><a href=""><img src="./img/facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="./img/instagram.png" alt=""></a></li>
+                    <li><a href=""><img src="./img/linkedin.png" alt=""></a></li>
+                </ul>
+            </div>
+            <p style="color: white"> Um site feito com HTML e CSS puro</p>
+        </div>
+        <b style="color: white;">© Todos os direitos reservados</b>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none";
+            } else {
+                itens.style.display = "block";
+            }
+        }
+
+        function verificaLargura() {
+            if (window.innerWidth >= 1008) {
+                itens.style.display = "flex";
+            } else {
+                itens.style.display = "none";
+            }
+        } 
+    </script>
+
+</body>
+
+</html>

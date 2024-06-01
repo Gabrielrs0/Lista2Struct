@@ -1,0 +1,68 @@
+@media screen and (max-width:1008px) {
+    .navbar {
+        position: relative;
+    }
+
+    
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+       padding-top: 320px; 
+        padding-bottom: 10px;
+       
+    }
+
+    .headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center;
+    }
+
+    .img-headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    section {
+        margin-top: 0px;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .links_4 {
+        position: absolute;
+        text-align: center;
+        top: 0;
+        right: 0;
+        
+        margin: 5rem -8rem auto auto;
+    }
+    #burguer {
+        margin: auto 5rem auto 6rem;
+    }
+}
+
+@media screen and (min-width:1008px) {
+    #burguer {
+        display: none;
+        
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    #burguer {
+        display: none;
+        
+    }
+}
